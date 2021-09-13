@@ -1,0 +1,78 @@
+
+        header {
+            display: block;
+            width: 100%;
+            padding: 0 100px;
+            box-sizing: border-box;
+        }
+
+        header .header-logo {
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        header nav {
+            width: 500px;
+            display: inline-block;
+            float: right;
+            font-family: poppins;
+        }
+
+        header nav a {
+            padding: 10px;
+            font-size: 14px;
+        }
+
+        header nav .header-sing-btn {
+            display: inline-block;
+        }
+
+        header nav div button {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        main section,
+        footer {
+            padding: 100px;
+        }
+
+        section div {
+            float: left;
+            display: block;
+            width: 49%;
+        }
+
+        section div h1 {
+            margin: 100px 0 30px 0;
+            font-size: 44px;
+            font-family: poppin;
+            font-weight: bold;
+        }
+
+        section div p {
+            font-size: 18px;
+            display: block;
+            width: 458px;
+            line-height: 28px;
+            font-family: poppins;
+
+        }
+
+        section svg  .pic_patry {
+            float: right;
+            display: block;
+            width: 49%;
+        }
+
+        .button {
+            display: inline-block;
+        
+        }
+        section .header_icon {
+            position:absolute;
+            width: 17px;
+        }
+        .header_btn {
+            position: relative;
+        }
