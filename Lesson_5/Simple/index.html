@@ -8,12 +8,19 @@
     <title>My Simple website</title>
 
     <style>
+        /* а почему тут оставила стили ? */
         h1 {
             background-color: rgb(165, 42, 42);
             color: white;
             text-align: center;
             display: block;
             width: 759px;
+
+            /* в целом все норм, только вот 759px - Вот нравится тебе статические размеры ))
+              и если параметр часто повторяется как 759px. То лучше создай переменную для него и положи ее туда.
+              https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties
+              https://developer.mozilla.org/en-US/docs/Web/CSS/var()
+             */
         }
 
         .colortext {
@@ -29,10 +36,11 @@
         div {
             width: 759px;
             text-align: center;
-            margin: 0 0 10px 0;
+            margin: 0 0 10px 0; /* Хорошая запись */
         }
 
         div img {
+            /* тебе повезло что img(sunset)  у тебя не в div*/
             border-color: black;
             border-style: dotted;
         }
@@ -55,7 +63,7 @@
 
     <h1>My simple website</h1>
     <img src="sunset.jpg" alt="sunset">
-    <section>
+    <section> <!--section - Безполезная обертка -->
         <p>Lorem ipsum dolor sit, amet consectetur <em>adipisicing elit</em>. Ut enim ad minim veniam, <strong>quis
                 nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</strong> . Duis aute irure dolor in
@@ -67,6 +75,7 @@
     </section>
 
     <div><img src="car01.jpg" alt="car">
+        <!-- Отлично, без лишних оберток -->
         <img src="car02.jpg" alt="car">
         <img src="car03.jpg" alt="car">
         <img src="car04.jpg" alt="car">

@@ -1,15 +1,15 @@
 main{
     background-color: rgb(153,9,9);
-    width: 1492px;
+    width: 1492px; /* Ну как вариант решения проблем */
 }
 main header{
-    margin: 0 522px 0;
+    margin: 0 522px 0; /* Зачем... Есть болие елегантное решение.*/
 }
 .head_block {
     display: inline-block;
     background-color: black;
 }
-main  .head_block  .pictures {
+main  .head_block  .pictures { /* хорошаяя запись */
     display: inline-block;
     padding: 35px;
     color:white;
@@ -30,7 +30,7 @@ main section  div p {
     background-color: rgb(125,9,9);
     float: left;
     width: 18%;
-    height: 332pxS;
+    height: 332pxS; /* Ограничивать блоки по высоте - плохое решение*/
     line-height: 52px;
 }
 .nav_article nav a {
@@ -42,7 +42,7 @@ main section  div p {
 color: white;
 width: 67%;
 display: inline-block;
-margin: 2px;
+margin: 2px; /* чтото внешний отступ между блоками какойто маленький, а слевой стороны почти сливаются */
 }
 aside {
     background-color: rgb(227,221,221);
@@ -58,6 +58,7 @@ aside h4{
 }
 hr{
     margin: 10px 25px 10px 25px;
+    /* тебя на етом моменте ничего не смутило ? */
 }
 footer{
     text-align: center;

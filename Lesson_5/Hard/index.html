@@ -10,13 +10,16 @@
 </head>
 
 <body>
-
+<!-- Ооо чистенький и выровняный код. Гуд-гуд-->
     <main>
         <header>
             <img src="title.gif" alt="title">
         </header>
 
         <section class="head_block">
+            <!-- Отлично, но можно было использовать вместо дива figure -->
+            <!-- хорошо подобрала статические размеры. Мы пока еще до адаптивной верстки не дошли
+             Но за responsive - верстку я уже рсказывал. Верстка структурных-блоков с помошью %. -->
             <div class="pictures">
                 <img src="img00.jpg" alt="Home">
                 <p>Home</p>
@@ -38,6 +41,9 @@
 
         <section class="nav_article">
             <nav>
+                <!-- решила задачу по най меньшему сопротивлению ))) -->
+                <!-- Подумай как еще можно было не используя br. -->
+                <!-- Для заглушек href используй # или javascript:void(0); - Ето будет болие коректно  -->
                 <a href="-">Lorem ipsum</a>
                 <br>
                 <a href="-">Sit amet consectetur</a>
@@ -70,7 +76,7 @@
                 <hr>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <hr>
+                <hr> <!-- В принципе неплохое решение. Но обычно такие вещи делают спомошью css::before/after-->
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <hr>
@@ -82,6 +88,7 @@
 
         <footer>
             <p> &copy; Copyright</p>
+            <!-- Сожми страницу по высоте чтобы появился скрол. Тогда сможешь увидеть ошибку -->
         </footer>
     </main>
 </body>
