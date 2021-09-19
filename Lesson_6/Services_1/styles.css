@@ -1,0 +1,70 @@
+
+body{
+    background-color: pink;
+}
+
+ .GeneralBlock{
+    width: 227px;
+    height: 172px;
+    display: inline-block;
+    position:absolute;
+    
+ }
+
+    .GeneralBlock .InsideBlock{
+      width: 72px;
+      height: 70px;
+      position: absolute;
+      margin: 0 80px 0 80px;
+    }
+
+    .Phone{
+      position: relative;
+    left: 24px;
+    top: -55px;
+    }
+   
+div p{
+  position: relative;
+    top: 36px;
+    text-align: center;
+}
+
+div h3{
+  top: 51px;
+  position: relative;
+  text-align: center;
+}
+
+#FirstBlock{
+  position: absolute;
+  left: 341px;
+  top: 56px;
+}
+
+.Tablet{
+  position: relative;
+}
+
+#SecondBlock {
+  position: absolute;
+  left: 667px;
+  top: 56px;
+}
+.Settings{
+  position: relative;
+  left: 20px;
+  top: -48px;
+}
+#ThirdBlock {
+  position: absolute;
+  left: 997px;
+  top: 56px;
+}
+
+.Dashboard{
+  position:relative;
+  top:-48px;
+  left:19px;
+  ;
+}

@@ -1,0 +1,52 @@
+.Easy_Customize {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1550px;
+  height: 289px;
+  z-index: 22;
+}
+.Etiam_sagittis_velit_vitae_varius_pellentesque_ {
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  color: rgb(157, 157, 157);
+  line-height: 1.429;
+  text-align: center;
+  position: absolute;
+  left: 660.957px;
+  top: 189.401px;
+  width: 220px;
+  height: 52px;
+  z-index: 21;
+}
+.Settings {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 762px;
+  top: 75px;
+  width: 26px;
+  height: 26px;
+  z-index: 20;
+}
+.Shape_189 {
+  border-radius: 50%;
+  background-color: rgb(18, 117, 185);
+  position: absolute;
+  left: 742px;
+  top: 56px;
+  width: 65px;
+  height: 63px;
+  z-index: 19;
+}
+.Easy_Customize {
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  position: absolute;
+  left: 714.938px;
+  top: 132.002px;
+  z-index: 18;
+}

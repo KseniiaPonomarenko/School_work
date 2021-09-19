@@ -1,0 +1,101 @@
+
+*{font-family:'Trebuchet MS', Trebuchet, Arial, sans-serif ;}
+*{transition: all .1s ease-in;}
+
+body{
+    color: white;
+    }
+
+header, footer {
+    background-color: #4a4f56;
+    color: #EB7E7F;
+    text-align: center;
+}
+
+header h2{  
+    margin: 0;
+}
+
+section{
+  background-color: #3B3F45;
+  padding: 3px;
+}
+
+table{    
+    width: 32.5%;
+    margin: auto;
+    background-color: #88839E;
+    border-collapse: collapse;
+}
+.element {
+    font-size: 24px;
+    padding: 20px;
+    border: 0 solid;
+}
+
+
+tr:nth-child(2n) {
+    background: #7A7593;
+   } 
+
+   tr :hover {
+    background: #625E77;
+    border-top-color: white;
+    border-bottom-color: white;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+   }
+
+   tr :active {
+    background: #EB7E7F;
+   }
+
+   input:checked + label {
+       text-decoration:line-through;
+   }
+
+
+   .NewAfter1::after{
+       content:"(for the next lesson about CSS)";
+       font-size: 14px;
+   } 
+
+   .NewAfter2::after{
+    content:"(for more CSS manipulations)";
+    font-size: 14px;
+} 
+.NewAfter3::after{
+    content:"(because they are awesome)";
+    font-size: 14px;
+}  
+
+[class^="NewBefore"] {
+    font-size: 14px;
+}
+
+
+.NewBefore1::before{
+    content:"13 plates";
+    font-size: 24px;
+}  
+
+.NewBefore2::before{
+    content:"Bottle of Sake ^_^";
+    font-size: 24px;
+}  
+
+
+
+
+
+
+footer {
+    background-color: #3B3F45;
+}
+footer p {
+    background-color: #4a4f56;
+    margin: 0px auto;
+    padding: 20px;
+    width: 30%;
+    font-size: 24px;
+}
