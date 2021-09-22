@@ -1,78 +1,105 @@
+header {
+    display: block;
+    width: 100%;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
 
-        header {
-            display: block;
-            width: 100%;
-            padding: 0 100px;
-            box-sizing: border-box;
-        }
+header .header-logo {
+    font-size: 30px;
+    text-decoration: none;
+}
 
-        header .header-logo {
-            font-size: 30px;
-            text-decoration: none;
-        }
+header nav {
+    display: inline-block;
+    float: right;
+    font-family: poppins;
+}
 
-        header nav {
-            width: 500px;
-            display: inline-block;
-            float: right;
-            font-family: poppins;
-        }
+header nav a {
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
 
-        header nav a {
-            padding: 10px;
-            font-size: 14px;
-        }
+header nav .header-sing-btn {
+    display: inline-block;
+}
 
-        header nav .header-sing-btn {
-            display: inline-block;
-        }
+header nav .header-sing-btn button {
+    padding: 0;
+    border-radius: 5%;
+}
 
-        header nav div button {
-            font-size: 16px;
-            font-weight: 600;
-        }
+.header-sing-btn .BtnSingIn {
+    background-color: white;
+    color: black;
+    border-color: #BCD0E5;
+}
 
-        main section,
-        footer {
-            padding: 100px;
-        }
+.header-sing-btn .BtnSingUp {
+    background-color: #FF9900;
+    color: white;
+    border-color: #979797;
+}
 
-        section div {
-            float: left;
-            display: block;
-            width: 49%;
-        }
+header nav div button {
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 46px;
+}
 
-        section div h1 {
-            margin: 100px 0 30px 0;
-            font-size: 44px;
-            font-family: poppin;
-            font-weight: bold;
-        }
+main section, footer {
+    padding: 100px;
+}
 
-        section div p {
-            font-size: 18px;
-            display: block;
-            width: 458px;
-            line-height: 28px;
-            font-family: poppins;
+section div {
+    float: left;
+    display: block;
+    width: 49%;
+}
 
-        }
+section div h1 {
+    margin: 100px 0 30px 0;
+    font-size: 44px;
+    font-family: poppin;
+    font-weight: bold;
+}
 
-        section svg  .pic_patry {
-            float: right;
-            display: block;
-            width: 49%;
-        }
+section div p {
+    font-size: 18px;
+    display: block;
+    width: 458px;
+    line-height: 28px;
+    font-family: poppins;
+}
 
-        .button {
-            display: inline-block;
-        
-        }
-        section .header_icon {
-            position:absolute;
-            width: 17px;
-        }
-        .header_btn {
-            position: relative;
-        }
+section svg .pic_patry {
+    float: right;
+    display: block;
+    width: 49%;
+}
+
+.button button {
+    display: inline-block;
+    background-color: #FF9900;
+    color: white;
+    font-family: poppin;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+    border: 0;
+    border-radius: 5%;
+    width: 175px;
+    height: 53px;
+}
+
+section .header_icon {
+    position: absolute;
+    width: 17px;
+}
+
+.header_btn {
+    position: relative;
+}
