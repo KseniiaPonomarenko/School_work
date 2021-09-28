@@ -51,23 +51,28 @@ header nav div button {
 }
 
 main section, footer {
-    padding: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-section div {
+section .LeftBlock {
     float: left;
     display: block;
     width: 49%;
 }
 
-section div h1 {
+.LeftBlock .LeftBlock__BtnLink {
+    width: auto;
+}
+
+section .LeftBlock h1 {
     margin: 100px 0 30px 0;
     font-size: 44px;
     font-family: poppin;
     font-weight: bold;
 }
 
-section div p {
+section .LeftBlock p {
     font-size: 18px;
     display: block;
     width: 458px;
@@ -75,13 +80,17 @@ section div p {
     font-family: poppins;
 }
 
-section svg .pic_patry {
+.FirstSection .pic_patry {
     float: right;
     display: block;
     width: 49%;
 }
 
-.button button {
+.LeftBlock__BtnLink_Btn {
+    margin-right: 20px;
+}
+
+.StyleForBtn {
     display: inline-block;
     background-color: #FF9900;
     color: white;
@@ -95,11 +104,88 @@ section svg .pic_patry {
     height: 53px;
 }
 
-section .header_icon {
-    position: absolute;
-    width: 17px;
+.LeftBlock .LeftBlock__BtnLink .LeftBlock__BtnLink_Link {
+    color: #FF9900;
+    position: relative;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
-.header_btn {
+.LeftBlock .LeftBlock__BtnLink .LeftBlock__BtnLink_icon {
+    position: absolute;
+    top: 1px;
+    left: -25px;
+}
+
+.SecondBlock__title {
+    font-family: popins;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    width: 31%;
+    margin: 0 auto 55px;
+}
+
+.SecondBlock__Bg {
     position: relative;
+}
+
+.SecondBlock__Bg_pic {
+    width: 100%;
+}
+
+.SecondBlock__AboveBg {
+    position: absolute;
+    top: 0;
+}
+
+.SecondBlock__MiniBlocks {
+    display: inline-block;
+    width: 23%;
+}
+
+.SecondBlock__text {
+    width: 88%;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.SecondBlock__Subtitle {
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.SecondBlock__Btn {
+    position: absolute;
+    bottom: 90px;
+    left: 41%;
+}
+
+.EffortlessValidation_LeftBlock {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.EffortlessValidation_LeftBlock .EffortlessValidation__titile {
+    font-family: popins;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.EffortlessValidation_LeftBlock p {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.EffortlessValidation__BoldP {
+    font-weight: bold;
+}
+
+.EffortlessValidation .Pic-man {
+    width: 49%;
+    float: right;
 }
