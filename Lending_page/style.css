@@ -51,8 +51,8 @@ header nav div button {
 }
 
 main section, footer {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .FirstSection .LeftBlock {
@@ -168,6 +168,8 @@ section .LeftBlock p {
     float: left;
     display: block;
     width: 49%;
+    margin-right: 50px;
+    padding-top: 50px;
 }
 
 .Blocks__titileP {
@@ -176,13 +178,15 @@ section .LeftBlock p {
     font-weight: bold;
 }
 
-.EV_LeftBlock p {
+.Block__StandartP {
     font-family: poppins;
     font-size: 16px;
 }
 
 .Blocks__BoldP {
     font-weight: bold;
+    font-family: poppins;
+    font-size: 16px;
 }
 
 .EV .Pic-man {
@@ -201,7 +205,7 @@ section .LeftBlock p {
 }
 
 .RightBlock {
-    width: 40%;
+    width: 45%;
     float: right;
     padding: 10px;
     margin-top: 20px;
@@ -210,7 +214,6 @@ section .LeftBlock p {
 .RightBlock .List {
     list-style-type: none;
     padding: 0;
-    width: 70%;
 }
 
 .RightBlock .List li {
@@ -221,4 +224,58 @@ section .LeftBlock p {
     background-size: 35px;
     background-repeat: no-repeat;
     padding-inline-start: 50px;
+}
+
+.TheEnd {
+    margin-top: 50px;
+    border-top: 1px solid #BCD0E5;
+}
+
+.footer-logo {
+    margin: 0 130px 90px 0;
+}
+
+.UsefulLinks {
+    width: 15%;
+    display: inline-block;
+    padding: 50px 40px 0 40px;
+}
+
+.Vertical {
+    display: block;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 12px;
+    color: #544837;
+    padding: 3px;
+}
+
+.Contacts {
+    display: inline-block;
+    width: 25%;
+}
+
+.PNumber {
+    width: 250px;
+    height: 35px;
+    border: 2px solid #BCD0E5;
+}
+
+.PNumber::placeholder {
+    color: #BCD0E5;
+}
+
+.BtNSingUpNow {
+    display: inline-block;
+    background-color: #FF9900;
+    color: white;
+    font-family: poppin;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5%;
+    width: 131px;
+    height: 39px;
 }
