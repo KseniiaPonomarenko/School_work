@@ -1,0 +1,20 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 699" width="1500" height="699">
+	<title>body</title>
+	<defs>
+		<radialGradient id="grd1" gradientUnits="userSpaceOnUse"  cx="750" cy="350" r="1125">
+			<stop offset="0" stop-color="#00c3c3"  />
+			<stop offset="0.318" stop-color="#00b8b7"  />
+			<stop offset="0.68" stop-color="#00afae"  />
+			<stop offset="1" stop-color="#00a09f"  />
+		</radialGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<g id="body">
+		<g id="about">
+			<path id="bg" class="shp0" d="M0 0L1500 0L1500 700L0 700L0 0Z" />
+		</g>
+	</g>
+</svg>

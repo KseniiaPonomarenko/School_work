@@ -1,0 +1,99 @@
+.sec1-header {
+    background-image: url(./section1.svg);
+    width: 1500px;
+    height: 1087px;
+    /* Сделала выравнивание background по низу и обрезала левое пространство */
+    background-position: bottom;
+}
+
+.sec1-info {
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.logo-header {
+    margin-top: 45px;
+}
+
+.nav-button {
+    float: right;
+    margin-top: 57px;
+}
+
+.nav-button__btn {
+    padding-left: 19px;
+    padding-right: 19px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-button__btn:hover {
+    /*  border-top: 1px silid red; */
+    border-top: 2px solid #ff6033;
+}
+
+.text-btn {
+    float: left;
+    width: 24%;
+    margin-top: 200px;
+    padding-left: 165px;
+}
+
+.sec1-paragraph {
+    font-family: Raleway;
+    font-size: 60px;
+    margin-bottom: 32px;
+}
+
+.text-btn__info {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-size: 17px;
+}
+
+.text-btn__button {
+    width: 200px;
+    height: 55px;
+    background-color: #ff6033;
+    filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+    color: white;
+    font-family: Raleway;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.sec2 {
+    background-image: url(./bg.svg);
+    width: 1500px;
+    height: 700px;
+}
+
+.sec2__text {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    padding-right: 165px;
+    margin-top: 50px;
+}
+
+.sec2__text_header {
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-bottom: 20px;
+}
+
+.sec2__text_info {
+    font-size: 17px;
+    font-style: italic;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+
+.sec3 {
+    background-image: url(./bg-services.svg);
+    width: 1500px;
+    height: 790px;
+}
