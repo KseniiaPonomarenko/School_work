@@ -1,14 +1,44 @@
+/*
+Вижу старалась по бему, но нефига не понятно...
+text-btn - текст кнопки. Но ето не даже кнопка, и даже не текст. и хз и з какого блока. печалька
+*/
+
 .sec1-header {
     background-image: url(./section1.svg);
     width: 1500px;
-    height: 1087px;
+    height: 1087px;  /*да ну блин - "нужно не блоку задавать высоту а контентом набирать нужную высоту" */
     /* Сделала выравнивание background по низу и обрезала левое пространство */
     background-position: bottom;
 }
 
+/*
+    лайфхак как сделать что бы float не покидал батю
+    .sec1-header:after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+*/
+
 .sec1-info {
     padding-left: 165px;
     padding-right: 165px;
+
+    /*
+    вместо 1000 слов
+
+    padding: 0 9%;
+    width: calc(100% - 9% * 2);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+        и теперь такие огороды(logo-header и nav-button) тебе не нужны
+    */
 }
 
 .logo-header {
@@ -37,7 +67,7 @@
     float: left;
     width: 24%;
     margin-top: 200px;
-    padding-left: 165px;
+    padding-left: 165px; /* а почему padding ? */
 }
 
 .sec1-paragraph {
