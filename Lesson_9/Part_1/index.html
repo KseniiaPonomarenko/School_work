@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
+
+<body>
+    <section class="sec1-header">
+        <img src="./BackgroundSec1.svg" alt="BackgroundSec1">
+
+        <div class="sec1__nav">
+            <!-- Обертка в для группировки элементов и установки отступов от края экрана
+             - Все правильно молодец. Только с одной из сторон ты не там дала отступы.
+             А так все четко разделила и распланировала-->
+            <img class="logo-header" src="./logo.svg" alt="Logo">
+            <nav class="nav-button">
+                <a class="nav-button__btn" href="/">Home</a>
+                <a class="nav-button__btn" href="/">About</a>
+                <a class="nav-button__btn" href="/">Services</a>
+                <a class="nav-button__btn" href="/">Gallery</a>
+                <a class="nav-button__btn" href="/">Blog</a>
+                <a class="nav-button__btn" href="/">Contact</a>
+            </nav>
+        </div>
+
+        <div class="sec1__main-content">
+            <h1 class="sec1-paragraph">Fresh life</h1>
+            <p class="sec1__main-content_text">
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco.
+            </p>
+            <button class="sec1__main-content_button"> GET FREE NOW</button>
+        </div>
+
+        <img class="sec1__scroll-svg" src="./scroll.svg" alt="">
+    </section>
+
+    <section class="sec2__about">
+
+        <img src="./bg.svg" alt="">
+
+        <img class="sec2__pic" src="./raspberry.svg" alt="">
+
+        <div class="sec2__text">
+            <p class="sec2__text_header"> About Us</p>
+            <p class="sec2__text_info"> Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum.</p>
+
+            <p class="sec2__text_info"> Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+        </div>
+
+    </section>
+
+
+    <section class="sec3__services">
+        <!--  <img src="./bg-services.svg" alt=""> -->
+
+        <div class="sec3__block-buttons">
+            <a class="sec3__button">
+                <span class="sec3__button_text"> Online Shopping</span>
+                <img class="sec3__icon" src="./icon.svg" alt="">
+            </a>
+            <a class="sec3__button">
+                <span class="sec3__button_text"> Quality Product</span>
+                <img class="sec3__icon" src="./hand.svg" alt="">
+            </a>
+            <a class="sec3__button">
+                <span class="sec3__button_text"> Domestic & International Delivery</span>
+                <img class="sec3__icon" src="./planet.svg" alt="">
+            </a>
+            <a class="sec3__button">
+                <span class="sec3__button_text"> Well Organized</span>
+                <img class="sec3__icon" src="./carrot.svg" alt="">
+            </a>
+        </div>
+        <div class="sec3__block-img">
+            <!-- Это не бесплнезная обертка, это див для картинки и текста -->
+
+            <img class="sec3__picture" src="/img copy (1).svg" alt="">
+
+            <span class="sec3__header">Our Services</span>
+        </div>
+
+
+    </section>
+
+    <section class="sec4__gallery">
+        <!-- div для заголовка -->
+        <div class="sec4__gallery_header">
+            <h1 class="sec4__header">Gallery</h1>
+            <p class="sec4__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</p>
+        </div>
+        <div class="sec4__picture">
+            <img src="./peach.svg" alt="">
+            <!-- оборачиваю дополнительно в div для того, что б сделать вертикальную группировку, иначе родительский wrap
+            вырвниывет все в строку -->
+            <div class="sec4__wild-berries">
+                <img src="./blueberry.svg" alt="">
+                <img src="./blackberry2.svg" alt="">
+            </div>
+
+
+            <img src="./yogurt.svg" alt="">
+            <img src="./persimmon.svg" alt="">
+
+        </div>
+
+        <button class="sec4__button"> VIEW MORE
+
+        </button>
+
+
+    </section>
+
+
+</body>
+
+</html>
