@@ -1,0 +1,21 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 78" width="300" height="78">
+	<title>body</title>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 20px;line-height: 25px;fill: #ffffff;font-weight: 700;font-family: "Raleway-Bold", "Raleway" } 
+		.txt1 { font-size: 13px;line-height: 25px;fill: #ffffff;font-weight: 300;font-family: "Raleway-Light", "Raleway" } 
+	</style>
+	<g id="body">
+		<g id="blog">
+			<g id="2">
+				<text id="Growing Food and a “Thirst” for Innovation By Auskteez - 3 hour" style="transform: matrix(1,0,0,1,-20,0)" >
+					<tspan x="20" y="14.2" class="txt0">G</tspan><tspan  y="14.2" class="txt0">rowing Food and a “Thirst” for </tspan>
+					<tspan x="20" y="39.2" class="txt0">Innovation
+</tspan>
+					<tspan x="20" y="74.2" class="txt1">By Auskteez - 3 hours ago
+</tspan>
+				</text>
+			</g>
+		</g>
+	</g>
+</svg>
