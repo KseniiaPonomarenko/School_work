@@ -450,3 +450,132 @@ text-btn - текст кнопки. Но ето не даже кнопка, и �
     font-weight: 300;
     text-align: center;
 }
+
+.sec7__contacts {
+    background-image: url(./bg-footer.svg);
+    width: 1500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    flex-direction: column;
+}
+
+.sec7__header {
+    font-size: 90px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.sec7__text {
+    margin: 20px 500px 45px;
+    height: 66px;
+    font-size: 20px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 300;
+    text-align: center;
+}
+
+.sec7__contact-data {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 165px 88px 165px;
+}
+
+.sec7__input-data {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sec7__input {
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+    background-color: #00c4c4;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+
+.sec7__message {
+    height: 250px;
+    text-align: start;
+}
+
+/* Тут решила использоваь focus, не знаю на сколько корректно...
+Не могу понять почему в input c номером тел. выскакивает полоса прокрутки... */
+
+.sec7__input:focus {
+    border-left-width: 5px;
+    border-left-color: #355b82;
+}
+
+.sec7__contact-data_header {
+    width: 499px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: 700;
+    font-family: "Raleway";
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.sec7__contact-data_text {
+    width: 499px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #262626;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.sign-footer {
+    background-color: #262626;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+
+.sign-footer p {
+    display: inline-block;
+}
+
+.sign-footer__all-right {
+    margin-left: 165px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.sign-footer__logo {
+    font-size: 25px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 400;
+    font-family: "Pacifico";
+    text-align: right;
+}
+
+.sign-footer__made-with {
+    margin-right: 165px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #b9b9b9;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.sign-footer p span {
+    color: red;
+}
