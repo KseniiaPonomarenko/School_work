@@ -7,24 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson 9</title>
     <link rel="stylesheet" href="./styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--дублирование -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--дублирование -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--дублирование -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--дублирование -->
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
 <body>
+<!-- в целом выглядит красиво. После 3й секции верстка намного лучще.
+    Первые две секции некапли непотдерживаемые. При малейших изменениях в контенте - Сайт падает. И тебе не вылачивают зп.
+ -->
     <section class="sec1-header">
-        <img src="./BackgroundSec1.svg" alt="BackgroundSec1">
+        <img src="./img/BackgroundSec1.svg" alt="BackgroundSec1"> <!-- А теперь давай теперь тебя попросят картинку заменить
+        - у тебя же все сломается абсолютно все-->
 
         <div class="sec1__nav">
-            <!-- Обертка в для группировки элементов и установки отступов от края экрана
-             - Все правильно молодец. Только с одной из сторон ты не там дала отступы.
-             А так все четко разделила и распланировала-->
-            <img class="logo-header" src="./logo.svg" alt="Logo">
+            <!-- absolute - для хедера норм рещение.
+                Былобы красивей если бы он еще прилипал и следовал за пользователем -->
+            <img class="logo-header" src="./img/logo.svg" alt="Logo">
             <nav class="nav-button">
-                <a class="nav-button__btn" href="/">Home</a>
+                <a class="nav-button__btn" href="/">Home</a> <!-- Ну ведь можно было уже якоря сделать, коль лендинг готов -->
                 <a class="nav-button__btn" href="/">About</a>
                 <a class="nav-button__btn" href="/">Services</a>
                 <a class="nav-button__btn" href="/">Gallery</a>
@@ -34,7 +37,7 @@
         </div>
 
         <div class="sec1__main-content">
-            <p class="sec1-paragraph">Fresh life</p>
+            <p class="sec1-paragraph">Fresh life</p> <!-- стоило ето стелать через h1 -->
             <p class="sec1__main-content_text">
                 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco.
@@ -42,14 +45,16 @@
             <button class="sec1__main-content_button"> GET FREE NOW</button>
         </div>
 
-        <img class="sec1__scroll-svg" src="./scroll.svg" alt="">
+        <img class="sec1__scroll-svg" src="./img/scroll.svg" alt="">
     </section>
 
     <section class="sec2__about">
 
-        <img src="./bg.svg" alt="">
+        <img src="./img/bg.svg" alt=""> <!-- Серьезно  !!??? - Перефразирую :
+        Граблями подперла потолок, чтобы не упал, а динамитную-связку использовала в место маленькой подушки.
+         -->
 
-        <img class="sec2__pic" src="./raspberry.svg" alt="">
+        <img class="sec2__pic" src="./img/raspberry.svg" alt="">
 
         <div class="sec2__text">
             <p class="sec2__text_header"> About Us</p>
@@ -65,30 +70,33 @@
     </section>
 
     <section class="sec3__services">
-        <!--  <img src="./bg-services.svg" alt=""> -->
+        <!--  <img src="./bg-services.svg" alt="">
+        - слава БОГУ - заменила, я боялся что еще одна костыльная конструкция спобная довести до слез и истерики разрабов
+         -->
 
         <div class="sec3__block-buttons">
             <a class="sec3__button">
                 <span class="sec3__button_text"> Online Shopping</span>
-                <img class="sec3__icon" src="./icon.svg" alt="">
+                <img class="sec3__icon" src="./img/icon.svg" alt="">
             </a>
             <a class="sec3__button">
                 <span class="sec3__button_text"> Quality Product</span>
-                <img class="sec3__icon" src="./hand.svg" alt="">
+                <img class="sec3__icon" src="./img/hand.svg" alt="">
             </a>
             <a class="sec3__button">
                 <span class="sec3__button_text"> Domestic & International Delivery</span>
-                <img class="sec3__icon" src="./planet.svg" alt="">
+                <img class="sec3__icon" src="./img/planet.svg" alt="">
             </a>
             <a class="sec3__button">
                 <span class="sec3__button_text"> Well Organized</span>
-                <img class="sec3__icon" src="./carrot.svg" alt="">
+                <img class="sec3__icon" src="./img/carrot.svg" alt="">
             </a>
         </div>
         <div class="sec3__block-img">
-            <!-- Это не бесплнезная обертка, это див для картинки и текста -->
+            <!-- Это не бесплнезная обертка, это див для картинки и текста
+             - Ок, Нормально -->
 
-            <img class="sec3__picture" src="./Tomatoes.svg" alt="">
+            <img class="sec3__picture" src="./img/Tomatoes.svg" alt="">
 
             <span class="sec3__header">Our Services</span>
         </div>
@@ -105,17 +113,17 @@
                 commodo consequat.</p>
         </div>
         <div class="sec4__picture">
-            <img src="./peach.svg" alt="">
+            <img src="./img/peach.svg" alt="">
             <!-- оборачиваю дополнительно в div для того, что б сделать вертикальную группировку, иначе родительский wrap
             вырвниывет все в строку -->
             <div class="sec4__wild-berries">
-                <img src="./blueberry.svg" alt="">
-                <img src="./blackberry2.svg" alt="">
+                <img src="./img/blueberry.svg" alt="">
+                <img src="./img/blackberry2.svg" alt="">
             </div>
 
 
-            <img src="./yogurt.svg" alt="">
-            <img src="./persimmon.svg" alt="">
+            <img src="./img/yogurt.svg" alt="">
+            <img src="./img/persimmon.svg" alt="">
 
         </div>
 
@@ -142,13 +150,16 @@
     </section>
 
     <section class="sec6__blog">
-        <p class="sec6__header"> Blog </p>
+        <p class="sec6__header"> Blog </p> <!-- не Р должен быть -->
         <p class="sec6__text"> Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
         <div class="sec6__pictures">
             <div class="sec6__firsr-pic">
                 <a class="sec6__gradient" href="#">
-                    <img src="./Green.svg" alt="">
+                    <!-- ссылка не рабочая/ не активна - текст перекрывает -->
+                    <img src="./img/Green.svg" alt=""> <!-- Никогда Никогда  - не оталкивайся от размеров картинки
+                     Ета вешь сугубо только для украшения. Что бы дурку в стене закрыть.
+                     -->
                 </a>
                 <p class="sec6__img-date">20 NOV</p>
                 <p class="sec6__img-text">Green Smoothies: Too Much of a Good Thing?</p>
@@ -158,7 +169,7 @@
 
             <div class="sec6__firsr-pic">
                 <a class="sec6__gradient" href="#">
-                    <img class="sec6__img" src="./Growing-1.svg" alt="">
+                    <img class="sec6__img" src="./img/Growing-1.svg" alt="">
                 </a>
                 <p class="sec6__img-date">14 NOV</p>
                 <p class="sec6__img-text">Growing Food and a “Thirst” for Innovation</p>
@@ -167,7 +178,7 @@
 
             <div class="sec6__firsr-pic">
                 <a class="sec6__gradient" href="#">
-                    <img class="sec6__img" src="./Pres.svg" alt="">
+                    <img class="sec6__img" src="./img/Pres.svg" alt="">
                 </a>
                 <p class="sec6__img-date">10 NOV</p>
                 <p class="sec6__img-text">Pesticides & Food: What You Need to Know</p>
@@ -175,7 +186,7 @@
             </div>
 
         </div>
-        <buttonc class="sec6__btn">VIEW MORE</button>
+        <button class="sec6__btn">VIEW MORE</button>
     </section>
 
     <section class="sec7__contacts">
@@ -185,7 +196,15 @@
             you'd like to discuss, contact with me!</p>
 
         <div class="sec7__contact-data">
-            <div class="sec7__input-data">
+            <div class="sec7__input-data"><!--
+            Ето не форма а муляж. Настоящая форма находится в форме.
+            1) При выделении поля - поле смещается и вылазит
+            2) нет валидации, и подсветки поля с ошибокой
+            3) кнопки отправки и сброса формы
+            4) у textarea - можно изменять размеры ломая сайт
+            5) Изображение не подстраивается под контент
+
+            -->
                 <input class="sec7__input" type="text" placeholder="Auskteez Tran">
                 <input class="sec7__input" type="email" placeholder="Your e-mail...">
                 <input class="sec7__input" type="number" placeholder="Your phone number...">
