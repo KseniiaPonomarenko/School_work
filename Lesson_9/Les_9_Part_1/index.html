@@ -19,8 +19,8 @@
     Первые две секции некапли непотдерживаемые. При малейших изменениях в контенте - Сайт падает. И тебе не вылачивают зп.
  -->
     <section class="sec1-header">
-        <img src="./img/BackgroundSec1.svg" alt="BackgroundSec1"> <!-- А теперь давай теперь тебя попросят картинку заменить
-        - у тебя же все сломается абсолютно все-->
+        <!--<img src="./img/BackgroundSec1.svg" alt="BackgroundSec1"> &lt;!&ndash; А теперь давай теперь тебя попросят картинку заменить
+        - у тебя же все сломается абсолютно все&ndash;&gt;-->
 
         <div class="sec1__nav">
             <!-- absolute - для хедера норм рещение.
@@ -50,7 +50,7 @@
 
     <section class="sec2__about">
 
-        <img src="./img/bg.svg" alt=""> <!-- Серьезно  !!??? - Перефразирую :
+        <!--<img src="./img/bg.svg" alt=""> <!-- Серьезно  !!??? - Перефразирую :
         Граблями подперла потолок, чтобы не упал, а динамитную-связку использовала в место маленькой подушки.
          -->
 
@@ -150,7 +150,7 @@
     </section>
 
     <section class="sec6__blog">
-        <p class="sec6__header"> Blog </p> <!-- не Р должен быть -->
+        <h2 class="sec6__header"> Blog </h2>
         <p class="sec6__text"> Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
             nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
         <div class="sec6__pictures">
@@ -191,16 +191,17 @@
 
     <section class="sec7__contacts">
 
-        <p class="sec7__header">Contact</p>
+        <h2 class="sec7__header">Contact</h2>
         <p class="sec7__text">For new projects, ideas, business or anything
             you'd like to discuss, contact with me!</p>
 
         <div class="sec7__contact-data">
             <div class="sec7__input-data"><!--
             Ето не форма а муляж. Настоящая форма находится в форме.
-            1) При выделении поля - поле смещается и вылазит
+
             2) нет валидации, и подсветки поля с ошибокой
-            3) кнопки отправки и сброса формы
+
+
             4) у textarea - можно изменять размеры ломая сайт
             5) Изображение не подстраивается под контент
 
@@ -208,7 +209,13 @@
                 <input class="sec7__input" type="text" placeholder="Auskteez Tran">
                 <input class="sec7__input" type="email" placeholder="Your e-mail...">
                 <input class="sec7__input" type="number" placeholder="Your phone number...">
-                <textarea class="sec7__input sec7__message" cols="30" rows="10" placeholder="Your messge..."></textarea>
+                <textarea class="sec7__input sec7__message" cols="1" rows="5" placeholder="Your messge..."></textarea>
+
+                <div class="sec7__group-btn">
+                    <button class="btn">Reset</button>
+                    <button class="btn">Submit</button>
+                </div>
+
             </div>
 
             <div class=".sec7__input-data">

@@ -3,8 +3,8 @@
 */
 
 .sec1-header {
-    position: relative;
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    background-image: url("./img/BackgroundSec1.svg");
+    width: 1500px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -24,7 +24,6 @@
 .sec1__nav {
     padding: 0 9%;
     width: calc(100% - 9% * 2);
-    position: absolute;
     top: 50px;
     left: 0;
     right: 0;
@@ -47,11 +46,10 @@
 }
 
 .sec1__main-content {
-    float: left;
     width: 26%;
     padding-left: 9%;
-    position: absolute;
-    margin-top: 284px;
+    margin-top: 220px;
+    margin-bottom: 100px;
     /* а почему padding ? */
     /* ksy потому что там отступ от края экрана */
 }
@@ -80,12 +78,14 @@
 }
 
 .sec1__scroll-svg {
-    position: absolute;
-    margin: 64% 48% 0; /* нууу блииннн */
+    display: block;
+    width: 32px;
+    margin: 0 auto 10px;
 }
 
 .sec2__about {
-    position: relative;
+    background-color: #00b6b6;
+    /*position: relative;*/
     width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
@@ -94,16 +94,18 @@
 }
 
 .sec2__pic {
-    position: absolute;
+    /*position: absolute;*/
     margin-top: 72px;
     margin-left: 72px;
 }
 
 .sec2__text {
-    position: absolute;
-    margin-right: 165px;
-    margin-left: 835px;
-    margin-top: 170px;
+    width: 43%;
+    margin-right: 50px;
+    /*position: absolute;*/
+    /*  margin-right: 165px;
+      margin-left: 835px;
+      margin-top: 170px;*/
 }
 
 .sec2__text_header {
@@ -347,7 +349,7 @@
     width: 570px;
     height: 63px; /* никогда текст-блоки неограничивай высотой - Тексту диватся некуда когда места мало. */
     font-size: 17px;
-    line-height: 25px;/* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 300;
     font-family: "Raleway";
@@ -392,7 +394,7 @@
     position: absolute;
     top: 209px;
     background: transparent;
-    background-image: linear-gradient( 0deg, #000000 0%, #ffffff 100%);
+    background-image: linear-gradient(0deg, #000000 0%, #ffffff 100%);
     opacity: 0.8;
 }
 
@@ -419,7 +421,7 @@
     width: 380px; /* что за волшебные пиксели */
     height: 79px; /* что за волшебные пиксели */
     font-size: 20px;
-    line-height: 25px;/* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 700;
     font-family: "Raleway";
@@ -433,7 +435,7 @@
     width: 380px;
     height: 79px;
     font-size: 20px;
-    line-height: 25px;/* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: lighter;
 }
@@ -463,7 +465,7 @@
 
 .sec7__header {
     font-size: 90px;
-    line-height: 25px;/* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #262626;
     font-weight: 700;
     font-family: "Raleway";
@@ -474,7 +476,7 @@
     margin: 20px 500px 45px;
     height: 66px; /* Ну вот заче ? */
     font-size: 20px;
-    line-height: 25px;/* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #262626;
     font-weight: 300;
     text-align: center;
@@ -483,7 +485,7 @@
 .sec7__contact-data {
     display: flex;
     justify-content: space-between;
-    margin: 45px 165px 88px 165px;
+    margin: 45px 165px 79px 165px;
 }
 
 .sec7__input-data {
@@ -496,24 +498,26 @@
     margin: 10px;
     width: 500px;
     height: 50px;
-    background-color: #00c4c4;
+    background-color: rgb(61 175 175 /0.58);
     font-size: 15px;
-    line-height: 25px;/* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 700;
     font-family: "Raleway";
+    box-sizing: border-box;
 }
 
 .sec7__message {
     height: 250px;
     text-align: start;
+    resize: none;
 }
 
 /* Тут решила использоваь focus, не знаю на сколько корректно...
 Не могу понять почему в input c номером тел. выскакивает полоса прокрутки... */
 
 .sec7__input:focus {
-    border-left-width: 5px;
+    border-left-width: 10px;
     border-left-color: #355b82;
 }
 
@@ -527,6 +531,22 @@
     margin-top: 20px;
     margin-bottom: 7px;
 }
+
+.sec7__group-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    padding: 5px 70px;
+    background-color: rgb(61 175 175 /0.58);
+    font-size: 20px;
+    line-height: 50px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+
 
 .sec7__contact-data_text {
     width: 499px;
