@@ -1,5 +1,9 @@
+.wrapper {
+    width: 100%;
+}
+
 .sec1__header {
-    background-image: url(./hero-header-bg.jpg.svg);
+    background: url(./hero-header-bg.jpg.svg) center no-repeat;
 }
 
 .sec1__header_logo-img {
@@ -7,8 +11,6 @@
 }
 
 .sec1__h1 {
-    margin-right: 664px;
-    margin-left: 660px;
     box-sizing: border-box;
     font-size: 54px;
     letter-spacing: 9px;
@@ -19,8 +21,7 @@
 }
 
 .sec1__text {
-    margin-right: 665px;
-    margin-left: 660px;
+    width: 35%;
     font-size: 19px;
     letter-spacing: 1px;
     line-height: 29px;
@@ -37,14 +38,26 @@
     ;
 }
 
-section {
+.sec {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-.sec2__about-us_header {
+.paragraph {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47%;
+}
+
+.paragraph p:nth-child(1) {
+    margin-top: 40px;
+}
+
+.sec__header {
     font-size: 34px;
     letter-spacing: 5px;
     color: #3c3c3c;
@@ -52,27 +65,30 @@ section {
     font-family: "Lato";
     text-align: center;
     background-color: white;
-    transform: translate(10px, 44px);
     box-sizing: border-box;
+    transform: translate(10px, 44px);
     padding: 0px 35px;
 }
 
-.sec2_about-us_paragraph {
-    box-sizing: border-box;
+/* .sec2__about-us_header {
+    transform: translate(10px, 44px);
+    padding: 0px 35px;
+} */
+
+.sec2__about-us_paragraph {
     border: 2px solid #3c3c3c;
-    display: inline-block;
-    width: 33%;
     padding: 30px 67px;
     margin-bottom: 153px;
 }
 
-.sec2__about-us_text {
+.sec__text {
     font-size: 16px;
     line-height: 24px;
     color: #3c3c3c;
     font-weight: 300;
     font-family: "Lato";
     text-align: center;
+    width: 60%;
 }
 
 .sec2__about-us_text-narrow {
@@ -80,7 +96,7 @@ section {
 }
 
 .sec3__services {
-    background-image: url(./services.jpg.svg);
+    background: url(./services.jpg.svg) center no-repeat;
 }
 
 .sec3__services_header {
@@ -95,23 +111,15 @@ section {
     /* position: relative; */
 }
 
-.sec2__services_text {
-    font-size: 16px;
+.sec__text--color {
     line-height: 26px;
     color: #ffffff;
-    font-weight: 300;
-    font-family: "Lato";
-    text-align: center;
 }
 
 .sec3__services_paragraph {
-    box-sizing: border-box;
     border: 2px solid transparent;
     border-image: linear-gradient(to right, #ffffff 28%, transparent 29%, transparent 73%, #ffffff 66%);
     border-image-slice: 1;
-    display: inline-block;
-    width: 33%;
-    padding: 30px 67px;
     margin-bottom: 127px;
     position: relative;
 }
@@ -126,22 +134,91 @@ section {
     right: 0px;
 }
 
-/* .sec3__services_header::before {
-    content: "";
-    top: 18px;
-    left: -194px;
-    background-color: #3c3c3c;
-    width: 168px;
-    height: 1px;
-    position: absolute;
+.sec4__what-we-do_header {}
+
+.sec4__main-bock {
+    border: 2px solid #3c3c3c;
+    padding: 30px 67px;
+    margin-bottom: 112px;
 }
 
-.sec3__services_header::after {
-    content: "";
-    top: 19px;
-    right: -174px;
-    background-color: #3c3c3c;
-    width: 150px;
-    height: 1px;
+.sec4_block {
+    width: 60%;
+    margin-top: 80px;
+}
+
+.sec4__heade {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #3c3c3c;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.sec4__text {
+    font-size: 14px;
+    line-height: 26px;
+    color: #3c3c3c;
+    font-weight: 300;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.sec5__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+
+.sec5__block .sec5__img-text:nth-child(2) {
+    margin: 0 10px;
+}
+
+.sec5__img-text {
+    position: relative;
+}
+
+.sec5__name {
+    font-size: 34px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
     position: absolute;
-} */
+    left: 45px;
+    bottom: 30px;
+}
+
+.sec6__btn {
+    width: 395px;
+    height: 58px;
+    background-color: #3c3c3c;
+    border: 2px solid #3c3c3c;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+}
+
+.sec6__contacts_paragraph {
+    border: 2px solid #3c3c3c;
+    padding: 30px 67px;
+    margin-bottom: 60px;
+}
+
+.sec7__footer {
+    flex-direction: row;
+    margin-bottom: 55px;
+}
+
+.sec7__text {
+    font-size: 14px;
+    color: #3c3c3c;
+    font-weight: 400;
+    font-family: "Lato";
+}
