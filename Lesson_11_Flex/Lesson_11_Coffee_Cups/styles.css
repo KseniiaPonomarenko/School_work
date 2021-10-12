@@ -1,0 +1,54 @@
+.main-block {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fdde7e;
+}
+
+.coffee-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 75px 20px 75px;
+    width: 30%;
+    background-color: white;
+    box-shadow: 1px 2px 5px black;
+}
+
+.price {
+    font-size: 70px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #02995b;
+    font-weight: bold;
+    font-family: "Miso";
+    text-align: center;
+}
+
+.coffee-block img {
+    width: 138px;
+    height: 135px;
+}
+
+.name-header {
+    font-size: 56px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Miso";
+    text-align: center;
+}
+
+.text {
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+    font-family: "Miso";
+    text-align: center;
+}
+
+.coffee-block:hover {
+    margin: 50px 20px 50px;
+}
