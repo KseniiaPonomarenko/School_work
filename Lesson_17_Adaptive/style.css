@@ -1,0 +1,281 @@
+header {
+    display: block;
+    width: 100%;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+header .header-logo {
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header nav {
+    display: inline-block;
+    float: right;
+    font-family: poppins;
+}
+
+header nav a {
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+header nav .header-sing-btn {
+    display: inline-block;
+}
+
+header nav .header-sing-btn button {
+    padding: 0;
+    border-radius: 5%;
+}
+
+.header-sing-btn .BtnSingIn {
+    background-color: white;
+    color: black;
+    border-color: #BCD0E5;
+}
+
+.header-sing-btn .BtnSingUp {
+    background-color: #FF9900;
+    color: white;
+    border-color: #979797;
+}
+
+header nav div button {
+    font-size: 16px;
+    font-weight: 600;
+    width: 110px;
+    height: 46px;
+}
+
+main section, footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.FirstSection .LeftBlock {
+    float: left;
+    display: block;
+    width: 49%;
+}
+
+.LeftBlock .LeftBlock__BtnLink {
+    width: auto;
+}
+
+.FirstSection .LeftBlock h1 {
+    margin: 100px 0 30px 0;
+    font-size: 44px;
+    font-family: poppin;
+    font-weight: bold;
+}
+
+section .LeftBlock p {
+    font-size: 18px;
+    display: block;
+    width: 458px;
+    line-height: 28px;
+    font-family: poppins;
+}
+
+.FirstSection .pic_patry {
+    float: right;
+    display: block;
+    width: 49%;
+}
+
+.LeftBlock__BtnLink_Btn {
+    margin-right: 20px;
+}
+
+.StyleForBtn {
+    display: inline-block;
+    background-color: #FF9900;
+    color: white;
+    font-family: poppin;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+    border: 0;
+    border-radius: 5%;
+    width: 175px;
+    height: 53px;
+}
+
+.LeftBlock .LeftBlock__BtnLink .LeftBlock__BtnLink_Link {
+    color: #FF9900;
+    position: relative;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.LeftBlock .LeftBlock__BtnLink .LeftBlock__BtnLink_icon {
+    position: absolute;
+    top: 1px;
+    left: -25px;
+}
+
+.SecondBlock__title {
+    font-family: popins;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    width: 31%;
+    margin: 0 auto 55px;
+}
+
+.SecondBlock__Bg {
+    position: relative;
+}
+
+.SecondBlock__Bg_pic {
+    width: 100%;
+}
+
+.SecondBlock__AboveBg {
+    position: absolute;
+    top: 0;
+}
+
+.SecondBlock__MiniBlocks {
+    display: inline-block;
+    width: 23%;
+}
+
+.SecondBlock__text {
+    width: 88%;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.SecondBlock__Subtitle {
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.SecondBlock__Btn {
+    position: absolute;
+    bottom: 90px;
+    left: 41%;
+}
+
+.EV_LeftBlock {
+    float: left;
+    display: block;
+    width: 49%;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+.Blocks__titileP {
+    font-family: popins;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.Block__StandartP {
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.Blocks__BoldP {
+    font-weight: bold;
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.EV .Pic-man {
+    width: 49%;
+    float: right;
+}
+
+.ProductManagers {
+    padding-top: 10px;
+}
+
+.ProductManagers .ProductMan {
+    width: 545px;
+    height: 520px;
+    padding: 10px;
+}
+
+.RightBlock {
+    width: 45%;
+    float: right;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.RightBlock .List {
+    list-style-type: none;
+    padding: 0;
+}
+
+.RightBlock .List li {
+    margin: 30px 30px 30px 0;
+    padding: 10px;
+    background-image: url(./list.svg);
+    background-position: 0;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-inline-start: 50px;
+}
+
+.TheEnd {
+    margin-top: 50px;
+    border-top: 1px solid #BCD0E5;
+}
+
+.footer-logo {
+    margin: 0 130px 90px 0;
+}
+
+.UsefulLinks {
+    width: 15%;
+    display: inline-block;
+    padding: 50px 40px 0 40px;
+}
+
+.Vertical {
+    display: block;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 12px;
+    color: #544837;
+    padding: 3px;
+}
+
+.Contacts {
+    display: inline-block;
+    width: 25%;
+}
+
+.PNumber {
+    width: 250px;
+    height: 35px;
+    border: 2px solid #BCD0E5;
+}
+
+.PNumber::placeholder {
+    color: #BCD0E5;
+}
+
+.BtNSingUpNow {
+    display: inline-block;
+    background-color: #FF9900;
+    color: white;
+    font-family: poppin;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5%;
+    width: 131px;
+    height: 39px;
+}

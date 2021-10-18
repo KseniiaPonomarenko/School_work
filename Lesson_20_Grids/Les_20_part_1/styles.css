@@ -1,0 +1,36 @@
+.pages {
+    display: grid;
+    grid-template-areas: "sokers sokers man" "sokers sokers women" "boy1 back boy2";
+    grid-template-rows: 1fr repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.item1 {
+    grid-area: sokers;
+    background-color: blueviolet;
+}
+
+.item2 {
+    grid-area: man;
+    background-color: brown;
+}
+
+.item3 {
+    grid-area: woman;
+    background-color: chartreuse;
+}
+
+/* .item4 {
+    grid-area: boy1;
+    background-color: pink;
+}
+
+.item5 {
+    grid-area: back;
+    background-color: teal;
+}
+
+.item6 {
+    grid-area: boy2;
+    background-color: coral;
+} */

@@ -67,7 +67,8 @@
 }
 
 .sec1__main-content_button {
-    width: 200px; /* размеры лучше задавать падингами */
+    width: 200px;
+    /* размеры лучше задавать падингами */
     height: 55px;
     background-color: #ff6033;
     filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
@@ -86,7 +87,8 @@
 .sec2__about {
     background-color: #00b6b6;
     /*position: relative;*/
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -125,7 +127,8 @@
 
 .sec3__services {
     background-color: #70bfff;
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
@@ -197,7 +200,8 @@
 
 .sec4__gallery {
     background-color: #ffe92f;
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
@@ -270,7 +274,8 @@
 
 .sec5__sub {
     background-image: url(img/bg-sub.svg);
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
@@ -327,7 +332,8 @@
 
 .sec6__blog {
     background-color: #b07cf7;
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
@@ -337,7 +343,8 @@
 
 .sec6__header {
     font-size: 90px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 700;
     font-family: "Raleway";
@@ -347,9 +354,11 @@
 .sec6__text {
     margin: 0 auto;
     width: 570px;
-    height: 63px; /* никогда текст-блоки неограничивай высотой - Тексту диватся некуда когда места мало. */
+    height: 63px;
+    /* никогда текст-блоки неограничивай высотой - Тексту диватся некуда когда места мало. */
     font-size: 17px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 300;
     font-family: "Raleway";
@@ -393,8 +402,9 @@
     height: 37%;
     position: absolute;
     top: 209px;
-    background: transparent;
-    background-image: linear-gradient(0deg, #000000 0%, #ffffff 100%);
+    /*  background: transparent;
+    background-image: linear-gradient(0deg, #000000 0%, #ffffff 100%); */
+    background-image: linear-gradient(0deg, black, transparent 76%, transparent 101%, black);
     opacity: 0.8;
 }
 
@@ -415,13 +425,17 @@
 }
 
 .sec6__img-text {
-    position: absolute; /* ппц приплыли - текст с absolute */
+    position: absolute;
+    /* ппц приплыли - текст с absolute */
     bottom: -10px;
     left: 10px;
-    width: 380px; /* что за волшебные пиксели */
-    height: 79px; /* что за волшебные пиксели */
+    width: 380px;
+    /* что за волшебные пиксели */
+    height: 79px;
+    /* что за волшебные пиксели */
     font-size: 20px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 700;
     font-family: "Raleway";
@@ -435,7 +449,8 @@
     width: 380px;
     height: 79px;
     font-size: 20px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: lighter;
 }
@@ -455,7 +470,8 @@
 
 .sec7__contacts {
     background-image: url(img/bg-footer.svg);
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
     box-sizing: border-box;
     display: flex;
     justify-content: space-around;
@@ -465,7 +481,8 @@
 
 .sec7__header {
     font-size: 90px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #262626;
     font-weight: 700;
     font-family: "Raleway";
@@ -474,9 +491,11 @@
 
 .sec7__text {
     margin: 20px 500px 45px;
-    height: 66px; /* Ну вот заче ? */
+    height: 66px;
+    /* Ну вот заче ? */
     font-size: 20px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #262626;
     font-weight: 300;
     text-align: center;
@@ -500,7 +519,8 @@
     height: 50px;
     background-color: rgb(61 175 175 /0.58);
     font-size: 15px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #ffffff;
     font-weight: 700;
     font-family: "Raleway";
@@ -524,7 +544,8 @@
 .sec7__contact-data_header {
     width: 499px;
     font-size: 17px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #262626;
     font-weight: 700;
     font-family: "Raleway";
@@ -547,11 +568,11 @@
     text-align: center;
 }
 
-
 .sec7__contact-data_text {
     width: 499px;
     font-size: 17px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #262626;
     font-weight: normal;
     margin-top: 0;
@@ -561,8 +582,10 @@
     background-color: #262626;
     margin: auto;
     display: flex;
-    justify-content: space-between; /* а почему не space-around ?? */
-    width: 1500px; /* а может можно было както подругому задать етот параметр ?*/
+    justify-content: space-between;
+    /* а почему не space-around ?? */
+    width: 1500px;
+    /* а может можно было както подругому задать етот параметр ?*/
 }
 
 .sign-footer p {
@@ -572,7 +595,8 @@
 .sign-footer__all-right {
     margin-left: 165px;
     font-size: 16px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #b9b9b9;
     font-weight: 300;
     font-family: "Raleway";
@@ -580,7 +604,8 @@
 
 .sign-footer__logo {
     font-size: 25px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #b9b9b9;
     font-weight: 400;
     font-family: "Pacifico";
@@ -590,7 +615,8 @@
 .sign-footer__made-with {
     margin-right: 165px;
     font-size: 15px;
-    line-height: 25px; /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
+    line-height: 25px;
+    /* высота лини не соответствует размеру текста. В 98% етот параметр должен быть по умолчанию */
     color: #b9b9b9;
     font-weight: 300;
     font-family: "Raleway";
