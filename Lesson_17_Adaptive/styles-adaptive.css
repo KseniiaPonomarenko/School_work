@@ -8,8 +8,98 @@
     width: 100%;
 }
 
-.header-nav .nav-menu {
-    display: none;
+#menu__toggle {
+    opacity: 0;
+}
+
+.menu__btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 13px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* добавляем "бургер" */
+
+.menu__btn>span, .menu__btn>span::before, .menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #FF9900;
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: -100%;
+    width: 200px;
+    height: 50%;
+    margin: 0;
+    padding: 49px 0;
+    list-style: none;
+    text-align: center;
+    background-color: #FF9900;
+    transition-duration: .25s;
+}
+
+/* элементы меню */
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+
+.menu__item:hover {
+    background-color: rgb(174, 83, 216);
+}
+
+#menu__toggle:checked~.menu__btn>span {
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: white;
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background-color: white;
+}
+
+#menu__toggle:checked~.menu__box {
+    visibility: visible;
+    right: 0;
 }
 
 .header-sing-btn .btn-submit {
@@ -55,6 +145,7 @@
 .FirstSection .LeftBlock p {
     color: #544837;
     font-size: 14px;
+    text-align: center;
 }
 
 .LeftBlock__BtnLink {
@@ -64,9 +155,11 @@
     align-items: center;
 }
 
-.LeftBlock__BtnLink .StyleForBtn {
-    width: 85px;
-    height: 30px;
+/* .LeftBlock__BtnLink */
+
+.StyleForBtn {
+    width: 100px;
+    height: 42px;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -91,4 +184,118 @@
     margin: 0 auto;
     width: 300px;
     height: auto;
+}
+
+.Standart-section {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    font-family: Poppins;
+    color: #2F281E;
+}
+
+.SecondBlock {
+    align-items: center;
+}
+
+.SecondBlock .SecondBlock__title {
+    color: #2F281E;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SecondBlock__MiniBlocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.SecondBlock__MiniBlocks .second-block-pic {
+    width: 51px;
+    height: auto;
+}
+
+.SecondBlock__MiniBlocks .SecondBlock__Subtitle {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.SecondBlock__MiniBlocks .SecondBlock__text {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.Blocks__titile {
+    font-size: 20px;
+}
+
+.Blocks__BoldP {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.Block__StandartP {
+    font-size: 14px;
+}
+
+.Standart__text__center {
+    text-align: center;
+}
+
+.EffortlessValidation-pic {
+    display: none;
+}
+
+.ProductManagers .ProductMan {
+    display: none;
+}
+
+.RightBlock .List {
+    list-style-type: none;
+    padding: 0;
+}
+
+.RightBlock .List li {
+    margin: 15px;
+    padding: 10px;
+    background-image: url(./pictures/check.svg);
+    background-position: 0;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-inline-start: 50px;
+}
+
+.Marketers-student {
+    display: none;
+}
+
+.TheEnd {
+    margin-top: 50px;
+    border-top: 1px solid #BCD0E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.TheEnd svg {
+    display: none;
+}
+
+.UsefulLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.BtnSingIn {
+    width: 100%;
+    height: 30px;
+    margin: 0;
 }
