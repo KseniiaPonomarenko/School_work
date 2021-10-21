@@ -205,11 +205,19 @@
     text-align: center;
 }
 
+.SecondBlock__Wrapper-mini {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .SecondBlock__MiniBlocks {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px 0;
+    width: 100%;
 }
 
 .SecondBlock__MiniBlocks .second-block-pic {
@@ -299,3 +307,96 @@
     height: 30px;
     margin: 0;
 }
+
+/* АДАПТИВ ПОД ПЛАНШЕТЫ 768-922PX Начало */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .header-sing-btn .btn-submit {
+        width: 100px;
+    }
+    .FirstSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .FirstSection .LeftBlock {
+        margin-left: 50px;
+        width: 50%;
+    }
+    .FirstSection .LeftBlock h1 {
+        text-align: left;
+    }
+    .FirstSection .LeftBlock p {
+        text-align: left;
+    }
+    .LeftBlock__BtnLink {
+        justify-content: flex-start;
+    }
+    .FirstSection .pic_party {
+        width: 45%;
+        height: auto;
+    }
+    .SecondBlock__MiniBlocks {
+        width: 50%;
+    }
+    .StyleForBtn {
+        width: 150px;
+    }
+    .EffortlessValidation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .EV_LeftBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        margin-left: 50px;
+    }
+    .Standart__text_left {
+        text-align: left;
+    }
+    .EffortlessValidation-pic {
+        display: flex;
+        width: 50%;
+        height: auto;
+    }
+    .ProductManagers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .ProductManagers .ProductMan {
+        display: flex;
+        width: 50%;
+        height: auto;
+        margin-left: 50px;
+    }
+    .ProductManagers .RightBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 50%;
+        padding-left: 20px;
+    }
+    .RightBlock .List li {
+        margin: 15px 15px 15px 0;
+    }
+    .Marketers {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .Marketers-student {
+        display: flex;
+        width: 50%;
+        height: auto;
+    }
+}
+
+/* АДАПТИВ ПОД ПЛАНШЕТЫ 768-922PX Конец */
+
+/* АДАПТИВ ПОД Декстоп >922PX Начало */
+
+@media screen and (min-width: 923px) {}
