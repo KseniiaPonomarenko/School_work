@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  <script src="./age.js"></script> -->
+    <!-- <script src="./number_sign.js"></script> -->
+    <!-- <script src="./identical_numbers.js"></script> -->
+    <!-- <script src="./leap_year.js"></script> -->
+    <!-- <script src="./palindrome.js"></script> -->
+
+    <title>JS</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" id="Sum" placeholder="USD rate is 26.38">
+        <div class="buttons">
+            <button onclick="GoToUAH()"> UAH: 1</button>
+            <button onclick="GoToEUR()"> EUR: 30.48</button>
+            <button onclick="GoToAZN()"> AZN: 15.35</button>
+        </div>
+    </div>
+
+    <script>
+        const UAH = 1;
+        const EUR = 30.48;
+        const AZN = 15.35;
+        const USD = 26.38;
+
+        /* Не сработало присваивание!! */
+        /* let MySum = document.getElementById('Sum').value; */
+
+        function GoToUAH() {
+            res = document.getElementById('Sum').value * USD / UAH;
+            alert(res);
+        }
+
+
+        function GoToEUR() {
+            res = document.getElementById('Sum').value * USD / EUR;
+            alert(res);
+        }
+
+        function GoToAZN() {
+            res = document.getElementById('Sum').value * USD / AZN;
+            alert(res);
+        }
+
+    </script>
+</body>
+
+</html>

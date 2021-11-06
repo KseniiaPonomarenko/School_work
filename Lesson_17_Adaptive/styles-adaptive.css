@@ -102,6 +102,11 @@
     right: 0;
 }
 
+.header-sing-btn {
+    display: flex;
+    order: 0;
+}
+
 .header-sing-btn .btn-submit {
     width: 68px;
     height: 42px;
@@ -399,4 +404,40 @@
 
 /* АДАПТИВ ПОД Декстоп >922PX Начало */
 
-@media screen and (min-width: 923px) {}
+@media screen and (min-width: 923px) {
+    .header-sing-btn {
+        display: flex;
+        order: 1;
+    }
+    .nav-and-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    #menu__toggle {
+        display: none;
+    }
+    .menu__btn {
+        display: none;
+    }
+    .menu__box {
+        display: flex;
+        visibility: visible;
+        /* Переопределяю стиль position */
+        position: static;
+        width: 75%;
+        padding: 0;
+        background-color: white;
+    }
+    .menu__item {
+        display: block;
+        padding: 12px;
+        color: #2F281E;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        text-decoration: none;
+    }
+    /* АДАПТИВ ПОД Декстоп >922PX Конец */
+}
