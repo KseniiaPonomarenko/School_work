@@ -1,3 +1,4 @@
+/* Task-4 */
 let year = prompt("Enter the year, please");
 let leap = year % 4;
 let leap2 = year % 400;
@@ -11,8 +12,3 @@ else {
 
     console.log(`The year ${year} is not leap`);
 }
-
-/* console.log(((year % 4) == 0) && ((year % 100) > 0) ? "Yes" : "No"); */
-
-/* let result = (((year % 4) = 0) && ((year % 100) > 0) ? "Yes" : "No");
-console.log(result); */

@@ -1,3 +1,4 @@
+/* Task-2 */
 let num = prompt("Enter the number");
 switch (Number(num)) {
     case 0:

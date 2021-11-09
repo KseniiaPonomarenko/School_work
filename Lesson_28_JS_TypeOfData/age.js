@@ -1,3 +1,4 @@
+/* Task-1 */
 let age = prompt("Укажите Ваш возраст");
 if (age >= 0 && age <= 12) {
     console.log("Ребенок")

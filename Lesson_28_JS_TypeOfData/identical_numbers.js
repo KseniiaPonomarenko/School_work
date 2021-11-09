@@ -1,3 +1,5 @@
+/* Task-3 */
+
 let num = prompt("Enter the number");
 
 if (num[0] == num[1] || num[0] == num[2] || num[1] == num[2]) {
