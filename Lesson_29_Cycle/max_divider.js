@@ -1,3 +1,5 @@
+
+/* Task-2 */
 let p1 = Number(prompt("Enter first number"));
 let p2 = Number(prompt("Enter second number"));
 let arr = [];

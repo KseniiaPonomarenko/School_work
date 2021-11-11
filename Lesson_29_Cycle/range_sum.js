@@ -1,3 +1,5 @@
+
+/* Task-1 */
 let v1 = Number(prompt("Enter firts number"));
 let v2 = Number(prompt("Enter second number"));
 let res = 0;
