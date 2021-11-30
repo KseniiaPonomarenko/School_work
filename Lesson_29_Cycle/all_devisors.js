@@ -1,5 +1,6 @@
 
 /* Task-3 */
+/* Запросить у пользователя число и вывести все делители этого числа. */
 let num = prompt("Enter the number, please");
 let res = "";
 

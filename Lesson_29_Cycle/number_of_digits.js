@@ -1,4 +1,6 @@
 /* Task-4 */
+/* Определить количество цифр в введенном числе. */
+
 let num = prompt("Enter the number, please");
 let res = 0;
 
